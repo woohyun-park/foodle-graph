@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:host {
+  --font: 'RixYeoljeongdo_Regular';
+
+  display: block;
+  width: 1000px;
+  height: 500px;
+  background-color: #33333B;
+  position:relative;
+}
+
+*{
+  font-family: var(--font);
+}
+
+.graph__img>img{
+  position: absolute;
+  top: 10%;
+  left: -3%;
+  width: 400px;
+}
+
+.graph__title{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  color: white;
+  font-size: 3em;
+}
+
+.graph__title--menu{
+  font-size: 0.5em;
+  text-align: right;
+}
+
+.graph__canvas{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
